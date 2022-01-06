@@ -5,7 +5,6 @@ import SignButton from './Buttons/BasicSigns';
 import NumberButton from './Buttons/NumberButton';
 import CalcInput from './CalcInput';
 
-// eslint-disable-next-line react/prefer-stateless-function
 const Calculator = () => {
   const [calcs, setCalcs] = useState({});
   useEffect(() => {
