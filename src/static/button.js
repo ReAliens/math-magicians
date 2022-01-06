@@ -70,12 +70,12 @@ export const signs = {
     },
     {
       id: 'multiply',
-      name: '*',
+      name: 'x',
       action: 'multiply',
     },
     {
       id: 'divide',
-      name: '/',
+      name: '÷',
       action: 'divide',
     },
     {
