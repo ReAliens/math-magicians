@@ -25,7 +25,7 @@ STEP 1
 STEP 2
 1. Open command prompt
 2. go to the designated folder where you want to clone the repository to.
-3. enter  git clone https://github.com/ReAliens/JS-Capstone.git
+3. enter  git clone https://github.com/ReAliens/math-magicians.git
 4. open your designated folder.
 5. you will be able to access my project locally.
 
