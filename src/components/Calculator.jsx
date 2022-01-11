@@ -30,37 +30,40 @@ const Calculator = () => {
       + (calculations?.next || '') || '0';
 
   return (
-    <div className="w-2/4 items-center">
-      <div className="w-full">
-        <CalcInput data={display} />
-      </div>
-      <div className="flex">
-        <div className="grid  grid-cols-3  w-4/5 self-start">
-          {signs.secondary.map((sign) => (
-            <SignButton
-              key={sign.id}
-              sign={sign.name}
-              type="sec"
-              handleClick={(e) => handleClick(e)}
-            />
-          ))}
-          {numbers.map((number) => (
-            <NumberButton
-              key={number.id}
-              number={number.name}
-              onClick={(e) => handleClick(e)}
-            />
-          ))}
+    <div className="flex w-full h-screen justify-center items-center">
+      <h1 className="self-start mt-44 mr-10 text-2xl text-blue-500">Let&#8242;s do some magic here!</h1>
+      <div className="w-3/4 self-end mb-10">
+        <div className="w-full">
+          <CalcInput data={display} />
         </div>
-        <div className="flex flex-col w-1/5">
-          {signs.basic.map((sign) => (
-            <SignButton
-              key={sign.id}
-              sign={sign.name}
-              type="basic"
-              handleClick={(e) => handleClick(e)}
-            />
-          ))}
+        <div className="flex">
+          <div className="grid  grid-cols-3  w-4/5 self-start">
+            {signs.secondary.map((sign) => (
+              <SignButton
+                key={sign.id}
+                sign={sign.name}
+                type="sec"
+                handleClick={(e) => handleClick(e)}
+              />
+            ))}
+            {numbers.map((number) => (
+              <NumberButton
+                key={number.id}
+                number={number.name}
+                onClick={(e) => handleClick(e)}
+              />
+            ))}
+          </div>
+          <div className="flex flex-col w-1/5">
+            {signs.basic.map((sign) => (
+              <SignButton
+                key={sign.id}
+                sign={sign.name}
+                type="basic"
+                handleClick={(e) => handleClick(e)}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
