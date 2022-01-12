@@ -210,13 +210,13 @@ exports[`Tests snapshots of components Renders Quotes Correctly 1`] = `
     className="text-4xl text-center mx-auto font-mono font-bold"
   >
     ”
-    Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature
     ”
   </p>
   <span
     className="mt-10 text-xl"
   >
-    Shakuntala Devi, Indian writer and mental calculator
+     Shakuntala Devi
   </span>
 </div>
 `;
