@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests snapshots of components Renders Calculator Correctly 1`] = `
+<div
+  className="flex w-full h-screen justify-center items-center"
+>
+  <h1
+    className="self-start mt-44 mr-10 text-2xl text-blue-500"
+  >
+    Let′s do some magic here!
+  </h1>
+  <div
+    className="w-3/4 self-end mb-10"
+  >
+    <div
+      className="w-full"
+    >
+      <p
+        className="bg-gray-500 w-full h-[100px] p-5 text-4xl text-white"
+        id="output"
+      >
+        0
+      </p>
+    </div>
+    <div
+      className="flex"
+    >
+      <div
+        className="grid  grid-cols-3  w-4/5 self-start"
+      >
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl"
+          name="AC"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl"
+          name="+/-"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl"
+          name="%"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="7"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="8"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="9"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="4"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="5"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="6"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="1"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="2"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="3"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl col-span-2"
+          name="0"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="w-full h-[100px] bg-slate-200 hover:bg-slate-700 hover:text-yellow-50 border border-black text-2xl "
+          name="."
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+      </div>
+      <div
+        className="flex flex-col w-1/5"
+      >
+        <button
+          className="w-full h-[100px] bg-orange-400 hover:bg-orange-700 hover:text-yellow-50  border border-black text-2xl"
+          name="+"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+        <button
+          className="w-full h-[100px] bg-orange-400 hover:bg-orange-700 hover:text-yellow-50  border border-black text-2xl"
+          name="-"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+        <button
+          className="w-full h-[100px] bg-orange-400 hover:bg-orange-700 hover:text-yellow-50  border border-black text-2xl"
+          name="x"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+        <button
+          className="w-full h-[100px] bg-orange-400 hover:bg-orange-700 hover:text-yellow-50  border border-black text-2xl"
+          name="÷"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          className="w-full h-[100px] bg-orange-400 hover:bg-orange-700 hover:text-yellow-50  border border-black text-2xl"
+          name="="
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tests snapshots of components Renders Home Correctly 1`] = `
+<div
+  className="flex justify-center items-center w-full h-screen"
+>
+  <p
+    className="w-8/12 text-2xl text-blue-500 font-medium"
+  >
+    Mathematics is the science and study of quality, structure, space, and change. Mathematicians seek out patterns, formulate new conjectures, and establish truth by rigorous deduction from appropriately chosen axioms and definitions. There is debate over whether mathematical objects such as numbers and points exist naturally or are human creations. The mathematician Benjamin Peirce called mathematics “the science that draws necessary conclusions “. Albert Einstein, on the other hand, stated that “as far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality. “ Through abstraction and logical reasoning mathematics evolved from counting, calculation, measurement, and the systematic study of the shapes and motions of physical objects. Practical mathematics has been a human activity for as far back as written records exist. Rigorous arguments first appeared in Greek mathematics, most notably in Euclid ′s Elements. Mathematics continued to develop, in fitful bursts, until the Renaissance, when mathematical innovations interacted with new scientific discoveries, leading to an acceleration in research that continues to the present day.
+  </p>
+</div>
+`;
+
+exports[`Tests snapshots of components Renders Quotes Correctly 1`] = `
+<div
+  className="flex flex-col w-full h-screen justify-center items-center"
+>
+  <p
+    className="text-4xl text-center mx-auto font-mono font-bold"
+  >
+    ”
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature
+    ”
+  </p>
+  <span
+    className="mt-10 text-xl"
+  >
+     Shakuntala Devi
+  </span>
+</div>
+`;

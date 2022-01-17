@@ -29,6 +29,23 @@ STEP 2
 4. open your designated folder.
 5. you will be able to access my project locally.
 
+### `npm install`
+
+you need to run this command in project terminal to add node modules after downloading code
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open (http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run test`
+
+Launches the test runner in the interactive watch mode.\
+
+
 
 ### Prerequisites
 - You should have basic knowledge of JSX and React-JS
