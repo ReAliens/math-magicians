@@ -46,6 +46,11 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 
 
+### `Live Demo`
+
+heroku : https://alien-magician.herokuapp.com/calculator
+Netlify : https://xenodochial-swanson-ac790e.netlify.app/
+
 
 ### Prerequisites
 - You should have basic knowledge of JSX and React-JS
